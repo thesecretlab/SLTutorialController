@@ -40,7 +40,7 @@ static SLTutorialController* _sharedController = nil;
     return _sharedController;
 }
 
-- (SLTutorialStage) currentTutorialStage {
+- (SLTutorialStage) tutorialStage {
     return _stage;
 }
 
